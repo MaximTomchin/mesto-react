@@ -1,0 +1,7 @@
+.popup__button_invalid {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: white;
+    color: #C4C4C4;
+}

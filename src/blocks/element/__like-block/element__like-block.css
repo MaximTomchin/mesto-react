@@ -1,0 +1,6 @@
+.element__like-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 34px;
+}

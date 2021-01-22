@@ -1,0 +1,33 @@
+.popup__field {
+    margin: 29.74px 36px 0;
+    width: 358px;
+    padding: 0 0 13.34px;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;    
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.popup__field:first-of-type {
+    margin: 54px 36px 0;
+    padding: 0 0 13.26px; 
+}
+
+.popup__field::placeholder {
+    color: #C4C4C4;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__field {
+        margin: 30px 22px 0;
+        width: 238px; 
+        padding: 0 0 13px;        
+    }
+
+    .popup__field:first-of-type {
+        margin: 75px 22px 0;    
+        padding: 0 0 13px;  
+    }
+}   

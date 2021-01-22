@@ -1,0 +1,230 @@
+.element__image {
+    width: 100%;
+    height: 282px; 
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    object-position: center top;
+    cursor: pointer;
+}
+
+.element__image:hover {
+    opacity: .9;
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1279px) {
+    .element__image {
+        min-height: 427px;     
+    }
+}
+
+@media screen and (min-width: 1246px) and (max-width: 1269px) {
+    .element__image {
+        min-height: 415px;     
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1245px) {
+    .element__image {
+        min-height: 402px;     
+    }
+}
+
+
+@media screen and (min-width: 1196px) and (max-width: 1219px) {
+    .element__image {
+        min-height: 390px;     
+    }
+}
+
+
+@media screen and (min-width: 1170px) and (max-width: 1195px) {
+    .element__image {
+        min-height: 377px;     
+    }
+}
+
+@media screen and (min-width: 1146px) and (max-width: 1169px) {
+    .element__image {
+        min-height: 365px;     
+    }
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1145px) {
+    .element__image {
+        min-height: 352px;     
+    }
+}
+
+@media screen and (min-width: 1096px) and (max-width: 1119px) {
+    .element__image {
+        min-height: 340px;     
+    }
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1095px) {
+    .element__image {
+        min-height: 327px;     
+    }
+}
+
+@media screen and (min-width: 1046px) and (max-width: 1069px) {
+    .element__image {
+        min-height: 324px;     
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1045px) {
+    .element__image {
+        min-height: 316.66px;     
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1023px) {
+    .element__image {
+        min-height: 307px;          
+    }
+}
+
+@media screen and (min-width: 970px) and (max-width: 994px) {
+    .element__image {
+        min-height: 298.66px;          
+    }
+}
+
+@media screen and (min-width: 944px) and (max-width: 969px) {
+    .element__image {
+        min-height: 290px;          
+    }
+}
+
+@media screen and (min-width: 896px) and (max-width: 919px) {
+    .element__image {
+        min-height: 420px;          
+    }
+}
+@media screen and (min-width: 870px) and (max-width: 895px) {
+    .element__image {
+        min-height: 407px;          
+    }
+}
+
+@media screen and (min-width: 846px) and (max-width: 869px) {
+    .element__image {
+        min-height: 395px;          
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 845px) {
+    .element__image {
+        min-height: 382px;          
+    }
+}
+
+@media screen and (min-width: 812px) and (max-width: 819px) {
+    .element__image {
+        min-height: 378px;          
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 811px) {
+    .element__image {
+        min-height: 372px;          
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px) {
+    .element__image {
+        min-height: 356px;          
+    }
+}
+
+@media screen and (min-width: 732px) and (max-width: 767px) {
+    .element__image {
+        min-height: 338px;        
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 731px) {
+    .element__image {
+        min-height: 332px;        
+    }
+}
+
+@media screen and (min-width: 670px) and (max-width: 719px) {
+    .element__image {
+        min-height: 307px;        
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 669px) {
+    .element__image {
+        min-height: 292px;        
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 619px) {
+    .element__image {
+        min-height: 562px;        
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 599px) {
+    .element__image {
+        min-height: 532px;        
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 569px) {
+    .element__image {
+        min-height: 502px;        
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 539px) {
+    .element__image {
+        min-height: 482px;        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 519px) {
+    .element__image {
+        min-height: 442px;        
+    }
+}
+
+@media screen and (min-width: 470px) and (max-width: 479px) {
+    .element__image {
+        min-height: 432px;        
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 469px) {
+    .element__image {
+        min-height: 387px;        
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 424px) {
+    .element__image {    
+        min-height: 374px;
+    }
+}
+
+@media screen and (min-width: 384px) and (max-width: 411px) {
+    .element__image {    
+        min-height: 346px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 383px) {
+    .element__image {    
+        min-height: 337px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    .element__image {    
+        min-height: 322px;
+    }
+}

@@ -1,0 +1,19 @@
+.element__button-reset {
+    width: 20.76px;
+    height: 18.13px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../../images/reset.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity .3s ease;  
+}
+
+.element__button-reset:hover {
+    opacity: .6;
+    cursor: pointer;
+}

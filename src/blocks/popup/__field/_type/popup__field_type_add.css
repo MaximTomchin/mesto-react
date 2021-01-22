@@ -1,0 +1,29 @@
+.popup__field_type_add::-webkit-input-placeholder {
+    color: #c4c4c4;
+}
+    
+.popup__field_type_add:-moz-placeholder { 
+    color: #c4c4c4;
+}
+     
+.popup__field_type_add::-moz-placeholder { 
+    color: #c4c4c4;
+}
+
+.popup__field_type_add:-ms-input-placeholder { 
+    color: #c4c4c4;
+}
+
+
+@media screen and (max-width: 767px) {
+    .popup__field_type_add {
+        margin: 20px 20px 0;
+        width: 200px;   
+        font-size: 12px;
+        line-height: 15px;  
+    }
+
+    .popup__field_type_add:first-of-type {
+        margin: 36px 20px 0;     
+    }
+}   

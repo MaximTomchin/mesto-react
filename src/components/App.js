@@ -26,7 +26,6 @@ function App() {
 
     function handleCardClick (card) {
         setSelectedCard({
-           // isOpen: true,
             name: card.name,
             link: card.link
         });

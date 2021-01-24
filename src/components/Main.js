@@ -11,7 +11,7 @@ function Main(props) {
     let userDescription = "";
     let userAvatar = "";
 
-   useEffect(() => {
+    useEffect(() => {
         api.getUserInfo().then(userInfo => {
             setUserInfo(userInfo);
         })

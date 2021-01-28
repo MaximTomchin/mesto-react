@@ -20,6 +20,18 @@
     cursor: pointer;
 }
 
+.popup__close-button:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.popup__close-button:active {
+    outline: none;
+}
+
+.popup__close-button:focus {
+    outline: none;
+}
 
 @media screen and (max-width: 767px) {
     .popup__close-button {

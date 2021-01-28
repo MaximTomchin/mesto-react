@@ -16,3 +16,11 @@
     opacity: .6;
     cursor: pointer;
 }
+
+.element__button-like:active {
+    outline: none;
+}
+
+.element__button-like:focus {
+    outline: none;
+}

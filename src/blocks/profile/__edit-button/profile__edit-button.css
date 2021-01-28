@@ -17,6 +17,14 @@
     cursor: pointer;
 }
 
+.profile__edit-button:focus {
+    outline: none;
+}
+
+ .profile__edit-button:active {
+      outline: none;
+ }
+
 @media screen and (max-width: 767px) {
     .profile__edit-button {
         margin: 34px 0 0 10px;

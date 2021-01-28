@@ -14,10 +14,10 @@ import ConfirmDeletionPopup from "./ConfirmDeletionPopup";
 const App = React.memo ((props) =>  {
     const [currentUser, setCurrentUser] = useState({});
     const [cards, setCards] = useState([]);
-    const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = React.useState();
-    const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = React.useState();
-    const [isEditAvatarPopupOpen, setIsEditAvatarPopupOpen] = React.useState();
-    const [isConfirmDeletionPopupOpen, setIsConfirmDeletionPopupOpen] = React.useState();
+    const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = React.useState(false);
+    const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = React.useState(false);
+    const [isEditAvatarPopupOpen, setIsEditAvatarPopupOpen] = React.useState(false);
+    const [isConfirmDeletionPopupOpen, setIsConfirmDeletionPopupOpen] = React.useState(false);
     const [selectedCard, setSelectedCard] = React.useState(null);
     const [removedCard, setRemovedCard] = React.useState(null);
 
@@ -100,20 +100,11 @@ const App = React.memo ((props) =>  {
     }
 
     function closeAllPopups () {
-       if (isAddPlacePopupOpen) {
-           setIsAddPlacePopupOpen(!isAddPlacePopupOpen);
-       }
-       if (isEditProfilePopupOpen) {
-           setIsEditProfilePopupOpen(!isEditProfilePopupOpen);
-       }
-       if (isEditAvatarPopupOpen) {
-           setIsEditAvatarPopupOpen(!isEditAvatarPopupOpen);
-       }
-        if (isConfirmDeletionPopupOpen) {
-            setIsConfirmDeletionPopupOpen(!isConfirmDeletionPopupOpen);
-        }
-       if (selectedCard)
-           setSelectedCard(!selectedCard);
+        setIsEditProfilePopupOpen(false);
+        setIsAddPlacePopupOpen(false);
+        setIsEditAvatarPopupOpen(false);
+        setIsConfirmDeletionPopupOpen(false);
+        setSelectedCard(null);
     }
 
     return (

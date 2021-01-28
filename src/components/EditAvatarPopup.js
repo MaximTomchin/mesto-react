@@ -1,21 +1,8 @@
 import React from 'react';
 import PopupWithForm from "./PopupWithForm";
-import CurrentUserContext from "../contexts/CurrentUserContext";
 
 const EditAvatarPopup = React.memo ((props) => {
-    const currentUser = React.useContext(CurrentUserContext);
-    const avatarRef = React.useRef();
     const  [avatar, setAvatar] = React.useState('');
-
-   React.useEffect( () => {
-        setAvatar(currentUser.avatar);
-   }, [currentUser]);
-
-    React.useEffect(() => {
-        if (!props.isOpen) {
-            setAvatar(currentUser.avatar);
-        }
-    }, [currentUser, props.isOpen]);
 
     function handleChangeAvatar(e) {
         setAvatar(e.target.value);
@@ -24,7 +11,7 @@ const EditAvatarPopup = React.memo ((props) => {
     function handleSubmit(e) {
         e.preventDefault();
         props.onUpdateAvatar({
-            avatar: avatarRef.current.value,
+            avatar: avatar,
         });
     }
 
@@ -39,7 +26,6 @@ const EditAvatarPopup = React.memo ((props) => {
         >
             <input
                 className="popup__field popup__field_type_change-avatar"
-                ref={avatarRef}
                 value={avatar || ''}
                 id="avatar"
                 type="url"
